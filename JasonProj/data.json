@@ -1,0 +1,54 @@
+[
+  {
+    "Id": "33e1011a-50ea-4aaf-b5eb-3740c7807dcc",
+    "Name": "Ayodele",
+    "Email": "emmanuel.ogidan@sbc.com",
+    "Password": "Bullseye12345#",
+    "Username": "emmanuel.ogidan",
+    "PhoneNumbers": [ "018928338747474", "3871038383838338" ],
+    "Addresses": [
+      {
+        "Id": "5ddf09fe-b127-44d4-8e87-2f46c1bb3fc8",
+        "MainAddress": "3 -6 bla bla bla ",
+        "City": "Lagos",
+        "LGA": "Ikeja",
+        "State": "Lagos",
+        "UserId": "33e1011a-50ea-4aaf-b5eb-3740c7807dcc"
+      },
+      {
+        "Id": "2bc6a0c8-ca41-4841-a2ac-c7d2d784d2ce",
+        "MainAddress": "3 -10 bla bla bla ",
+        "City": "Lagos",
+        "LGA": "Ikeja",
+        "State": "Lagos",
+        "UserId": "33e1011a-50ea-4aaf-b5eb-3740c7807dcc"
+      }
+    ]
+  },
+  {
+    "Id": "f36f95d3-fc83-41d6-abd3-94acfaacfc0d",
+    "Name": "Samuel",
+    "Email": "test@gmail.com",
+    "Password": "Bullseye12345#",
+    "Username": "test",
+    "PhoneNumbers": [ "018928338747474", "3871038383838338" ],
+    "Addresses": [
+      {
+        "Id": "7dc8e141-5e97-4cde-bcf6-554c42229f8a",
+        "MainAddress": "3 -6 bla bla bla ",
+        "City": "Lagos",
+        "LGA": "Ikeja",
+        "State": "Lagos",
+        "UserId": "f36f95d3-fc83-41d6-abd3-94acfaacfc0d"
+      },
+      {
+        "Id": "a0dd81bd-1b2a-4662-a5c1-ef14c2645857",
+        "MainAddress": "3 -10 bla bla bla ",
+        "City": "Lagos",
+        "LGA": "Ikeja",
+        "State": "Lagos",
+        "UserId": "f36f95d3-fc83-41d6-abd3-94acfaacfc0d"
+      }
+    ]
+  }
+]
