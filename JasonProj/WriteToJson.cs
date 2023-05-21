@@ -10,12 +10,14 @@ namespace JasonProj
     {
         public void WriteToJsons(List<User> user)
         {
-            string fileName = "data.json";
-            string currentDir = Environment.CurrentDirectory;
-            DirectoryInfo directory = new DirectoryInfo(
-                Path.GetFullPath(Path.Combine(currentDir, @"..\..\..\" + fileName)));
+            //string fileName = "data.json";
+            //string currentDir = Environment.CurrentDirectory;
+            //DirectoryInfo directory = new DirectoryInfo(
+            //    Path.GetFullPath(Path.Combine(currentDir, @"..\..\..\" + fileName)));
+
+            string newpath = JsonHelper.GetPath("data.json");
             string jsonString = JsonSerializer.Serialize(user);
-            using (StreamWriter writer = new StreamWriter(directory.FullName))
+            using (StreamWriter writer = new StreamWriter(newpath))
             {
                 writer.Write(jsonString);
             }
